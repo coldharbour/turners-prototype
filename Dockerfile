@@ -1,4 +1,4 @@
-FROM node:alpine
+FROM alpine:latest
 RUN apk add --no-cache-nodejs
 
 WORKDIR /app
