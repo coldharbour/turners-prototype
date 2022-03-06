@@ -8,7 +8,7 @@ function App() {
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          hello i am new content.
+          hello i am even newer content.
         </p>
         <a
           className="App-link"
