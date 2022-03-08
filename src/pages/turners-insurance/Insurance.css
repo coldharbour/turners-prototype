@@ -1,0 +1,186 @@
+.insurance-body-container {
+  height: 844px;
+  width: 390px;
+  background-color: white;
+}
+
+/* top section begins */
+
+.insurance-body-container-top {
+  height: 23%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.insurance-body-container-top-banner {
+  height: 100%;
+  width: 100%;
+}
+
+.insurance-body-container-top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 90%;
+}
+
+.insurance-body-container-top-text-heading {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #0073ce;
+}
+
+.insurance-body-container-top-text-content {
+  font-size: 12px;
+  text-align: center;
+}
+
+.insurance-body-container-top-text-content-bold {
+  font-weight: 600;
+}
+
+/* top section ends */
+
+/* middle section begins */
+
+.insurance-body-container-middle {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.insurance-body-container-middle-breakdown {
+  display: flex;
+  flex-direction: row;
+  height: 37%;
+  width: 80%;
+}
+.insurance-body-container-middle-breakdown-image {
+  height: 100%;
+  width: 30%;
+}
+
+.insurance-body-container-middle-breakdown-text {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.insurance-body-container-middle-breakdown-text-top {
+  height: 20%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0073ce;
+  padding-left: 5%;
+  line-height: 21.09px;
+}
+.insurance-body-container-middle-breakdown-text-middle {
+  height: 60%;
+  width: 97%;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+  line-height: 14.06px;
+}
+.insurance-body-container-middle-breakdown-text-bottom {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  color: #0073ce;
+}
+
+/* section gap */
+
+.insurance-body-container-middle-car {
+  display: flex;
+  flex-direction: row;
+  height: 37%;
+  width: 80%;
+}
+
+.insurance-body-container-middle-car-image {
+  height: 100%;
+  width: 30%;
+}
+
+.insurance-body-container-middle-car-text {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.insurance-body-container-middle-car-text-top {
+  height: 20%;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #0073ce;
+  padding-left: 5%;
+}
+.insurance-body-container-middle-car-text-middle {
+  height: 60%;
+  width: 98%;
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5%;
+}
+.insurance-body-container-middle-car-text-bottom {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 10px;
+  color: #0073ce;
+}
+
+.insurance-body-container-middle-text-bottom-btn {
+  font-weight: 700;
+  font-size: 13px;
+}
+/* middle section ends */
+
+/* bottom section begins */
+
+.insurance-body-container-bottom {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.insurance-body-container-bottom-home-btn {
+  padding-left: 9%;
+  font-size: 10px;
+  font-weight: 400;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.insurance-body-container-bottom-home-btn-arrow {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* bottom section ends */
