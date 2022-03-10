@@ -292,7 +292,8 @@ export default function CarBody() {
                             ></img>
                         </div>
                     </div>
-                    <div className='car-body-back-home-btn'>&#60;&nbsp; Back</div>
+                    <a className='car-body-back-home-btn'
+                        href='http://myalb-665274893.us-east-1.elb.amazonaws.com/insurance'>&#60;&nbsp; Back</a>
                 </div>
                 <div className='car-body-quote-container'>
                     <div className='car-body-quote-btn'>GET A QUOTE ONLINE</div>

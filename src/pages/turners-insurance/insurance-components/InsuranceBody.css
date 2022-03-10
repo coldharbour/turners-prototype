@@ -96,6 +96,7 @@
   justify-content: flex-end;
   font-size: 10px;
   color: #0073ce;
+  text-decoration: none;
 }
 
 /* section gap */
@@ -172,6 +173,7 @@
   flex-direction: row;
   align-items: center;
   text-decoration: none;
+  color: black;
 }
 
 .insurance-body-container-bottom-home-btn-arrow {

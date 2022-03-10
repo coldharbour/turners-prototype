@@ -15,7 +15,7 @@ export default function TurnersConstruction() {
                 <a
                     className='turners-construction-body-home'
                     alt="home btn"
-                    href={'http://localhost:3000'}
+                    href={'http://myalb-665274893.us-east-1.elb.amazonaws.com/'}
                 >Back Home</a>
             </div>
         </>

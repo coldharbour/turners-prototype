@@ -30,7 +30,7 @@ export default function HomePageBody() {
                     <div className="homepage-body-page-links-container-top-left">
                         <a
                             className='homepage-body-page-links-container-construction-link'
-                            href="http://localhost:3000/construction"
+                            href="http://myalb-665274893.us-east-1.elb.amazonaws.com/construction"
                             alt="insurance link">&nbsp;</a>
                         <div className="homepage-body-page-links-text-overlay">BUY<br></br> A CAR</div>
                         <img
@@ -42,7 +42,7 @@ export default function HomePageBody() {
                     <div className="homepage-body-page-links-container-top-right">
                         <a
                             className='homepage-body-page-links-container-construction-link'
-                            href="http://localhost:3000/construction"
+                            href="http://myalb-665274893.us-east-1.elb.amazonaws.com/construction"
                             alt="insurance link">&nbsp;</a>
                         <div className="homepage-body-page-links-text-overlay">SELL<br></br> A CAR</div>
                         <img
@@ -59,7 +59,7 @@ export default function HomePageBody() {
                     <div className="homepage-body-page-links-container-bottom-left">
                         <a
                             className='homepage-body-page-links-container-construction-link'
-                            href="http://localhost:3000/construction"
+                            href="http://myalb-665274893.us-east-1.elb.amazonaws.com/construction"
                             alt="insurance link">&nbsp;</a>
                         <div className="homepage-body-page-links-text-overlay">FINANCE</div>
                         <img
@@ -71,7 +71,7 @@ export default function HomePageBody() {
                     <div className="homepage-body-page-links-container-bottom-right">
                         <a
                             className='homepage-body-page-links-container-insurance-link'
-                            href="http://localhost:3000/insurance"
+                            href="http://myalb-665274893.us-east-1.elb.amazonaws.com/insurance"
                             alt="insurance link">&nbsp;</a>
                         <div className="homepage-body-page-links-text-overlay">INSURANCE</div>
                         <img

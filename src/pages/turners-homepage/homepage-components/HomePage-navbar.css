@@ -3,7 +3,7 @@
 }
 
 .homepage-nav-body-container {
-  width: 100%;
+  width: 390px;
   height: 50px;
   display: flex;
   align-items: center;
@@ -39,6 +39,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  background-color: white;
 }
 
 .homepage-nav-body-container-right-item {
@@ -106,5 +107,5 @@
 }
 
 .homepage-hamburger-menu-container-item:hover {
-  color: #0073ce;
+  color: #0073ce !important;
 }

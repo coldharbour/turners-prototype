@@ -8,7 +8,7 @@ import { useState, useEffect } from 'react';
 
 
 
-export default function HomePage() {
+export default function HomePageNavBar() {
     //functions to open and close hamburger menu
     const [showMenu, setShowMenu] = useState('noMenu')
     const handleClick = () => {
@@ -58,11 +58,16 @@ export default function HomePage() {
                             <div className="homepage-nav-body-dropdown-menu-right">
                                 <div className='homepage-hamburger-menu-container'>
 
-                                    <div className='homepage-hamburger-menu-container-item'>Buy a Car</div>
-                                    <div className='homepage-hamburger-menu-container-item'>Sell a Car</div>
-                                    <div className='homepage-hamburger-menu-container-item'>Finance</div>
-                                    <div className='homepage-hamburger-menu-container-item'>Insurance</div>
-                                    <div className='homepage-hamburger-menu-container-item'>Contanct</div>
+                                    <a className='homepage-hamburger-menu-container-item'
+                                        href="http://myalb-665274893.us-east-1.elb.amazonaws.com/construction">Buy a Car</a>
+                                    <a className='homepage-hamburger-menu-container-item'
+                                        href="http://myalb-665274893.us-east-1.elb.amazonaws.com/construction">Sell a Car</a>
+                                    <a className='homepage-hamburger-menu-container-item'
+                                        href="http://myalb-665274893.us-east-1.elb.amazonaws.com/construction">Finance</a>
+                                    <a className='homepage-hamburger-menu-container-item'
+                                        href="http://myalb-665274893.us-east-1.elb.amazonaws.com/insurance">Insurance</a>
+                                    <a className='homepage-hamburger-menu-container-item'
+                                        href="http://myalb-665274893.us-east-1.elb.amazonaws.com/construction">Contanct</a>
 
                                 </div>
                             </div>
