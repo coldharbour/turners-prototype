@@ -104,6 +104,8 @@
   font-size: 18px;
   line-height: 21px;
   cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 .homepage-hamburger-menu-container-item:hover {
