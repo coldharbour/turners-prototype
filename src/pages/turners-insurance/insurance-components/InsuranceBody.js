@@ -48,7 +48,11 @@ export default function InsuranceBody() {
                         <div className="insurance-body-container-middle-car-image-text">
                             <div className="insurance-body-container-middle-car-text-top">Car Insurance</div>
                             <div className="insurance-body-container-middle-car-text-middle">We have 3 types of car insurance with great benefits and features to alleviate your financial burden if you are in an accident.</div>
-                            <div className="insurance-body-container-middle-car-text-bottom"><div>See More <span className='insurance-body-container-middle-text-bottom-btn'> ></span></div></div>
+                            <a
+                                className="insurance-body-container-middle-car-text-bottom"
+                                alt="car insurance btn"
+                                href={'http://localhost:3000/car'}
+                            ><div>See More <span className='insurance-body-container-middle-text-bottom-btn'> ></span></div></a>
                         </div>
                     </div>
                 </div>
@@ -58,7 +62,10 @@ export default function InsuranceBody() {
 
 
                 <div className='insurance-body-container-bottom'>
-                    <div className='insurance-body-container-bottom-home-btn'><div><span className='insurance-body-container-bottom-home-btn-arrow'> &#60;&nbsp;</span></div> Back to Home</div>
+                    <a
+                        className='insurance-body-container-bottom-home-btn'
+                        alt="home btn"
+                        href={'http://localhost:3000'}><div><span className='insurance-body-container-bottom-home-btn-arrow'> &#60;&nbsp;</span></div> Back to Home</a>
                 </div>
             </div>
 

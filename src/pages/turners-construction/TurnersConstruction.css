@@ -1,0 +1,31 @@
+.turners-construction-body-container {
+  height: 844px;
+  width: 390px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.turners-construction-body-container-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 25px;
+  height: 15%;
+}
+.turners-construction-body-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.turners-construction-body-home {
+  cursor: pointer;
+  height: 15%;
+  font-weight: 500;
+  padding-left: 6%;
+  display: flex;
+  align-items: center;
+  color: #0073ce;
+}

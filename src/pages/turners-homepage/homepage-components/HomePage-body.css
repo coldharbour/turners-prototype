@@ -76,6 +76,15 @@
   position: relative;
 }
 
+.homepage-body-page-links-container-insurance-link,
+.homepage-body-page-links-container-construction-link {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 1;
+}
+
 .homepage-body-page-links-container-bottom {
   display: flex;
   flex-direction: row;
